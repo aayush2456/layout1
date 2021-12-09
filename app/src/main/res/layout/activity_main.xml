@@ -26,7 +26,9 @@
         android:id="@+id/button_toast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#4CAF50"
         android:text="@string/toast"
+        android:textColor="#263238"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -35,7 +37,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
         android:text="@string/count"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_zero" />
+
+    <Button
+        android:id="@+id/button_zero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:text="Zero"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_toast" />
 
